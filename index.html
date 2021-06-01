@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+<script>
 /*
  * Basic Count Up from Date and Time
  * Author: @mrwigster / https://guwii.com/bytes/count-date-time-javascript/
@@ -32,6 +33,7 @@ function countUpFromTime(countFrom, id) {
   clearTimeout(countUpFromTime.interval);
   countUpFromTime.interval = setTimeout(function(){ countUpFromTime(countFrom, id); }, 1000);
 }
+</script>
 
 <style>
 .countup {
